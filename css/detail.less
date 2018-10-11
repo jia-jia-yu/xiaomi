@@ -1,22 +1,21 @@
 body {
-    font: 14px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    // color: #ccc;
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    color: #333;
 }
 
 .box {
     width: 1226px;
-    background: pink;
+    // background: pink;
     margin: 0 auto;
     overflow: hidden;
-    padding: 32px 0 12px 0;
+    padding: 32px 0 50px 0;
     .minbox {
-        width: 606px; // height: 200px;
-        background: yellow;
+        width: 606px; 
+        // background: yellow;
         float: left;
     }
     .right {
-        float: right;
-        height: 200px;
+        float: right; // height: 200px;
         h1 {
             font-size: 24px;
             color: #212121;
@@ -37,33 +36,95 @@ body {
         .zengpin {
             padding: 10px 0;
             border-bottom: 1px solid #e0e0e0;
-            li{
+            li {
                 margin-bottom: 5px;
-                span{
+                span {
                     display: inline-block;
                 }
-                .flow-tag{
+                .flow-tag {
                     width: 80px;
                     padding: 2px 0;
                     text-align: center;
                     background: #ff6700;
                     color: #fff;
                 }
-                .flow-name{
+                .flow-name {
                     width: 430px;
                     line-height: 26px;
                     margin-left: 5px;
                 }
             }
         }
-        .box_b{
-            .site{
+        .box_b {
+            .site {
                 margin: 40px 0;
-                .site_a{
+                .site_a {
                     background: #fafafa;
                     border: 1px solid #e0e0e0;
                     padding-left: 50px;
-                    padding: 30px 40px 30px 32px;
+                    padding: 30px 40px 30px 50px;
+                    position: relative;
+                    i {
+                        font-size: 20px;
+                        color: #999;
+                        position: absolute;
+                        left: 20px;
+                        top: 26px;
+                    }
+                    .item {
+                        margin-right: 14px;
+                    }
+                    .switch-choose-regions {
+                        color: #ff6700;
+                    }
+                }
+            }
+            .price {
+                width: 546px;
+                padding: 30px;
+                background: #f9f9fa;
+                margin-bottom: 30px;
+                li {
+                    line-height: 30px;
+                    color: #616161;
+                    span {
+                        float: right;
+                    }
+                }
+                .totlePrice {
+                    color: #ff6700;
+                    font-size: 24px;
+                    padding-top: 20px;
+                }
+            }
+            .car {
+                a {
+                    text-align: center;
+                    display: inline-block;
+                    width: 298px;
+                    height: 52px;
+                    line-height: 52px;
+                    font-size: 16px;
+                    background: #ff6700;
+                    border-color: #ff6700;
+                    color: #fff;
+                    margin-right: 15px;
+                    float: left;
+                }
+                .like{
+                    width: 140px;
+                    height: 52px;
+                    line-height: 52px;
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                    background: #b0b0b0;
+                }
+                i{
+                    font-size: 22px;
+                }
+                div{
+                    float: left;
                 }
             }
         }
@@ -78,4 +139,29 @@ body {
     width: 60px;
     height: 2px;
     background: #666;
+}
+
+.swiper-button-prev {
+    margin-top: -34.5px;
+    left: 0;
+    width: 41px;
+    height: 69px;
+    background: url(../images/icon-slides.png) no-repeat;
+    background-position-x: -83px;
+    &:hover {
+        background: url(../images/icon-slides.png) no-repeat;
+    }
+}
+
+.swiper-button-next {
+    margin-top: -34.5px;
+    right: 0;
+    width: 41px;
+    height: 69px;
+    background: url(../images/icon-slides.png) no-repeat;
+    background-position-x: -125px;
+    &:hover {
+        background: url(../images/icon-slides.png) no-repeat;
+        background-position-x: -42px;
+    }
 }

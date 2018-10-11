@@ -33,7 +33,8 @@ article,
 footer,
 nav,
 figure,
-figcaption {
+figcaption,
+i {
     margin: 0;
     padding: 0;
 }
