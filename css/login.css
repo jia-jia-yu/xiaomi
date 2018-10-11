@@ -1,0 +1,107 @@
+
+
+
+
+.logo{
+    width: 1130px;
+    height: 98px;
+    margin: 0 auto;
+    background: url(../images/img/mistore_logo.png) no-repeat; 
+}
+.img{
+    width: 100%;
+    height: 588px;
+    background: url(../images/img/4d52c587e6415f82684a881db27e3b01.jpg) no-repeat;
+    background-position: center;
+}
+.banner{
+    width: 1130px;
+    height: 588px;
+    margin: 0 auto;
+    position: relative;
+}
+.inp{
+    width: 410px;
+    height: 524px;
+    background: #fff;
+    position: absolute;
+    left: 720px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.mainbox{
+    width: 410px;
+    height: 308px;
+    /* background: red; */
+}
+.nav_tabs{
+    width: 410px;
+    height: 31px;
+    /* background: blue; */
+    font-size: 24px;
+    text-align: center;
+    color: #e0e0e0;
+    padding: 27px 0 24px;
+}
+.nav_tabs a{
+    color: #666;
+}
+.nav_tabs .log{
+    color:#ef5b00;
+}
+.nav_tabs span{
+    margin: 0 35px 0 42px;
+}
+.tabs_con{
+    width: 410px;
+    height: 226px;
+}
+.login_area{
+    width: 348px;
+    height: 226px;
+    /* background: yellow; */
+    margin: 0 auto;
+    position: relative;
+}
+.input{
+    width: 336px;
+    height: 48px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 14px;
+    padding-left: 15px;
+}
+.inp1{
+    height: 10px;
+    width: 348px;
+}
+.but{
+    margin-top: 10px;
+    width: 348px;
+    height: 50px;
+    background: #ef5b00;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.text{
+    width: 348px;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    position: absolute;
+    bottom: 0;
+}
+.text .a{
+    float: right;
+}
+.text a{
+    color: #999;
+}
+.text .b{
+    color: #ef5b00;
+}
+.text a:hover{
+    color: #ef5b00;
+}
