@@ -119,9 +119,9 @@
                     </ul>
                 </div>
                 <div class="car">
-                    <a href="#">加入购物车</a>
+                    <a href="#" class="add_car">加入购物车</a>
                     <div>
-                        <a href="#" class="like">
+                        <a href="" class="like">
                             <i class="iconfont icon-heart"></i>
                             喜欢
                         </a>
@@ -129,8 +129,9 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- <div class="bottom">
+        <div class="bottom">
             <div class="container">
                 <div class="c_top">
                     <ul>
@@ -283,9 +284,11 @@
                 </li>
             </ul>
             <a href="#top" class="a"><i class="iconfont icon-huidingbu"></i></a>
-        </div> -->
+        </div>
 
         <script src="js/swiper.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/detail.js"></script>
         <script>
             var mySwiper = new Swiper('.swiper-container', {
                 loop: true, // 循环模式选项
@@ -304,6 +307,8 @@
                     delay: 3000,
                     disableOnInteraction: false,
                 },
+                effect : 'fade',
+                speed:500,
             });
         </script>
 </body>

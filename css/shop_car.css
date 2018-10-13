@@ -2,6 +2,9 @@ body {
   font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
   color: #333;
 }
+a {
+  color: #757575;
+}
 .header {
   border-bottom: 2px solid #ff6700;
 }
@@ -39,8 +42,29 @@ body {
 .box_shop .shop {
   width: 1226px;
   margin: 0 auto;
-  background: pink;
-  height: 2000px;
+  background: #fff;
+  margin-bottom: 22px;
+}
+.box_shop .shop .shop_name {
+  width: 380px;
+  text-align: left;
+}
+.box_shop .shop .shop_price {
+  width: 75px;
+  padding-right: 84px;
+  text-align: right;
+}
+.box_shop .shop .shop_num {
+  width: 150px;
+  text-align: center;
+}
+.box_shop .shop .shop_total {
+  width: 201px;
+  text-align: center;
+}
+.box_shop .shop .shop_action {
+  width: 80px;
+  text-align: center;
 }
 .box_shop .shop .shop_header {
   height: 70px;
@@ -49,6 +73,25 @@ body {
 }
 .box_shop .shop .shop_header .kong {
   width: 230px;
+}
+.box_shop .shop .shop_header .kong i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #e0e0e0;
+  margin-left: 24px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  margin-right: 15px;
+}
+.box_shop .shop .shop_header .kong i:hover {
+  color: #ccc;
 }
 .box_shop .shop .shop_header div {
   float: left;
@@ -62,7 +105,6 @@ body {
 }
 .box_shop .shop .shop_content .shop_li {
   height: 86px;
-  background: yellow;
 }
 .box_shop .shop .shop_content .shop_li div {
   float: left;
@@ -73,33 +115,99 @@ body {
 .box_shop .shop .shop_content .shop_li .kong_2 {
   width: 110px;
 }
+.box_shop .shop .shop_content .shop_li .kong_2 i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #e0e0e0;
+  margin-left: 24px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 6px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  margin-right: 15px;
+}
+.box_shop .shop .shop_content .shop_li .kong_2 i:hover {
+  color: #ccc;
+}
 .box_shop .shop .shop_content .shop_li .shop_img {
   width: 120px;
 }
-.box_shop .shop .shop_content .shop_li .shop_total {
-  color: #ff6700;
-}
-.box_shop .shop .shop_name {
-  width: 380px;
-  text-align: left;
+.box_shop .shop .shop_content .shop_li .shop_name {
   font-size: 18px;
 }
-.box_shop .shop .shop_price {
-  width: 75px;
-  padding-right: 84px;
-  text-align: right;
+.box_shop .shop .shop_content .shop_li .shop_price {
   font-size: 16px;
 }
-.box_shop .shop .shop_num {
-  width: 150px;
-  text-align: center;
-}
-.box_shop .shop .shop_total {
-  width: 201px;
-  text-align: center;
+.box_shop .shop .shop_content .shop_li .shop_total {
+  color: #ff6700;
   font-size: 16px;
 }
-.box_shop .shop .shop_action {
-  width: 80px;
+.box_shop .shop .shop_content .shop_li .shop_action a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
   text-align: center;
+  border-radius: 12px;
+  color: #757575;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.box_shop .shop .shop_content .shop_li .shop_action a i {
+  font-size: 12px;
+}
+.box_shop .shop .shop_content .shop_li .shop_action a:hover {
+  background: #f00707;
+}
+.box_shop .shop_j {
+  width: 1226px;
+  height: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+.box_shop .shop_j .go {
+  height: 50px;
+  float: left;
+}
+.box_shop .shop_j .go a {
+  margin-left: 32px;
+  line-height: 50px;
+}
+.box_shop .shop_j .go span {
+  margin-left: 16px;
+  padding-left: 16px;
+  border-left: 1px solid #eee;
+  color: #757575;
+}
+.box_shop .shop_j .go span i {
+  color: #ff6700;
+}
+.box_shop .shop_j .shop_j_right {
+  height: 50px;
+  float: right;
+  line-height: 50px;
+}
+.box_shop .shop_j .shop_j_right span {
+  padding-left: 13px;
+  color: #ff6700;
+}
+.box_shop .shop_j .shop_j_right span i {
+  font-size: 30px;
+}
+.box_shop .shop_j .shop_j_right a {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 50px;
+  vertical-align: top;
+  background: #ff6700;
+  color: #fff;
 }
