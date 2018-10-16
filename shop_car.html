@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="css/shop_car.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_866141_k5yi7jcni3m.css">
 </head>
+
 <body>
     <div class="header">
         <div class="container">
@@ -24,7 +26,7 @@
         <div class="shop">
             <div class="shop_header">
                 <div class="kong">
-                    <i class="iconfont icon-selected"></i>
+                    <input type="checkbox">
                     全选
                 </div>
                 <div class="shop_name">商品名称</div>
@@ -36,14 +38,20 @@
             <div class="shop_content">
                 <div class="shop_li">
                     <div class="kong_2">
-                        <i class="iconfont icon-selected"></i>
+                        <input class="kuang" type="checkbox">
                     </div>
                     <div class="shop_img">
                         <img src="images/shop_car/pms_1538019072.40043349!80x80.png" alt="">
                     </div>
                     <div class="shop_name">小米8 屏幕指纹版 8GB内存 暮光金 128GB</div>
                     <div class="shop_price">3599元</div>
-                    <div class="shop_num"></div>
+                    <div class="shop_num">
+                        <div class="num_inp">
+                            <div class="left">-</div>
+                            <input type="number" value="1">
+                            <div class="right">+</div>
+                        </div>
+                    </div>
                     <div class="shop_total">3599元</div>
                     <div class="shop_action">
                         <a>
@@ -57,9 +65,9 @@
             <div class="go">
                 <a href="#">继续购物</a>
                 <span>
-                    共 
+                    共
                     <i>1</i>
-                    件商品,已选择 
+                    件商品,已选择
                     <i>1</i>
                     件
                 </span>
@@ -78,158 +86,161 @@
 
     <!-- 尾部 -->
     <div class="bottom">
-            <div class="container">
-                <div class="c_top">
-                    <ul>
-                        <li>
-                            <a href="">
-                                <i class="iconfont icon-banshou"></i>
-                                预约维修服务
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="iconfont icon-banshou"></i>
-                                预约维修服务
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="iconfont icon-banshou"></i>
-                                预约维修服务
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="iconfont icon-banshou"></i>
-                                预约维修服务
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="iconfont icon-banshou"></i>
-                                预约维修服务
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="c_b">
-                    <dl class="col-links">
-                        <dt>帮助中心</dt>
-                        <dd><a href="">账户管理</a></dd>
-                        <dd><a href="">购物指南</a></dd>
-                        <dd><a href="">订单操作</a></dd>
-                    </dl>
-                    <dl class="col-links">
-                        <dt>帮助中心</dt>
-                        <dd><a href="">账户管理</a></dd>
-                        <dd><a href="">购物指南</a></dd>
-                        <dd><a href="">订单操作</a></dd>
-                    </dl>
-                    <dl class="col-links">
-                        <dt>帮助中心</dt>
-                        <dd><a href="">账户管理</a></dd>
-                        <dd><a href="">购物指南</a></dd>
-                        <dd><a href="">订单操作</a></dd>
-                    </dl>
-                    <dl class="col-links">
-                        <dt>帮助中心</dt>
-                        <dd><a href="">账户管理</a></dd>
-                        <dd><a href="">购物指南</a></dd>
-                        <dd><a href="">订单操作</a></dd>
-                    </dl>
-                    <dl class="col-links">
-                        <dt>帮助中心</dt>
-                        <dd><a href="">账户管理</a></dd>
-                        <dd><a href="">购物指南</a></dd>
-                        <dd><a href="">订单操作</a></dd>
-                    </dl>
-                    <dl class="col-links">
-                        <dt>帮助中心</dt>
-                        <dd><a href="">账户管理</a></dd>
-                        <dd><a href="">购物指南</a></dd>
-                        <dd><a href="">订单操作</a></dd>
-                    </dl>
-                    <div class="contact">
-                        <p class="phone">400-100-5678</p>
-                        <p>周一至周日 8:00-18:00<br>
-                            （仅收市话费）
-                        </p>
+        <div class="container">
+            <div class="c_top">
+                <ul>
+                    <li>
                         <a href="">
-                            <i class="iconfont icon-lianxikefu"></i>
-                            联系客服
+                            <i class="iconfont icon-banshou"></i>
+                            预约维修服务
                         </a>
-                    </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont icon-banshou"></i>
+                            预约维修服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont icon-banshou"></i>
+                            预约维修服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont icon-banshou"></i>
+                            预约维修服务
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="iconfont icon-banshou"></i>
+                            预约维修服务
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="c_b">
+                <dl class="col-links">
+                    <dt>帮助中心</dt>
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>帮助中心</dt>
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>帮助中心</dt>
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>帮助中心</dt>
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>帮助中心</dt>
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dl>
+                <dl class="col-links">
+                    <dt>帮助中心</dt>
+                    <dd><a href="">账户管理</a></dd>
+                    <dd><a href="">购物指南</a></dd>
+                    <dd><a href="">订单操作</a></dd>
+                </dl>
+                <div class="contact">
+                    <p class="phone">400-100-5678</p>
+                    <p>周一至周日 8:00-18:00<br>
+                        （仅收市话费）
+                    </p>
+                    <a href="">
+                        <i class="iconfont icon-lianxikefu"></i>
+                        联系客服
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="site-info">
-            <div class="container">
-                <div class="logo ir"></div>
-                <div class="info-text">
-                    <p class="sites">
-                        <a href="#">小米商城</a>
-                        <span class="sep">|</span>
-                        <a href="#">MIUI</a>
-                        <span class="sep">|</span>
-                        <a rel="nofollow" href="#">米家</a>
-                        <span class="sep">|</span>
-                        <a href="#">米聊</a>
-                        <span class="sep">|</span>
-                        <a href="#">多看</a>
-                        <span class="sep">|</span>
-                        <a href="#">游戏</a>
-                        <span class="sep">|</span>
-                        <a href="#">路由器</a>
-                        <span class="sep">|</span>
-                        <a href="#">米粉卡</a>
-                        <span class="sep">|</span>
-                        <a href="#">政企服务</a>
-                        <span class="sep">|</span>
-                        <a href="#">小米天猫店</a>
-                        <span class="sep">|</span>
-                        <a href="#">隐私政策</a>
-                        <span class="sep">|</span>
-                        <a href="#">问题反馈</a>
-                        <span class="sep">|</span>
-                        <a href="#">廉正举报</a>
-                        <span class="sep">|</span>
-                        <a href="#">Select Region</a>
-                    </p>
-                    <p>©
-                        <a href=" " title="mi.com">mi.com</a>
-                        京ICP证110507号
-                        <a href="#">京ICP备10046444号</a>
-                        <a href="#">京公网安备11010802020134号</a>
-                        <a href="#">京网文[2017]1530-131号</a>
-                        <a href="#">营业执照</a>
-                        <br>
-                        违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
-                    </p>
-                </div>
-                <div class="info-links">
-                    <a href="#"><img src="//i1.mifile.cn/f/i/17/site/truste.png" alt="TRUSTe Privacy Certification"></a>
-                    <a href="#"><img src="//s01.mifile.cn/i/v-logo-2.png" alt="诚信网站"></a>
-                    <a href="#"><img src="//s01.mifile.cn/i/v-logo-1.png" alt="可信网站"></a>
-                    <a href="#"><img src="//s01.mifile.cn/i/v-logo-3.png" alt="网上交易保障中心"></a>
-                    <a href="#"><img src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="诚信经营 放心消费"></a>
-                </div>
+    </div>
+    <div class="site-info">
+        <div class="container">
+            <div class="logo ir"></div>
+            <div class="info-text">
+                <p class="sites">
+                    <a href="#">小米商城</a>
+                    <span class="sep">|</span>
+                    <a href="#">MIUI</a>
+                    <span class="sep">|</span>
+                    <a rel="nofollow" href="#">米家</a>
+                    <span class="sep">|</span>
+                    <a href="#">米聊</a>
+                    <span class="sep">|</span>
+                    <a href="#">多看</a>
+                    <span class="sep">|</span>
+                    <a href="#">游戏</a>
+                    <span class="sep">|</span>
+                    <a href="#">路由器</a>
+                    <span class="sep">|</span>
+                    <a href="#">米粉卡</a>
+                    <span class="sep">|</span>
+                    <a href="#">政企服务</a>
+                    <span class="sep">|</span>
+                    <a href="#">小米天猫店</a>
+                    <span class="sep">|</span>
+                    <a href="#">隐私政策</a>
+                    <span class="sep">|</span>
+                    <a href="#">问题反馈</a>
+                    <span class="sep">|</span>
+                    <a href="#">廉正举报</a>
+                    <span class="sep">|</span>
+                    <a href="#">Select Region</a>
+                </p>
+                <p>©
+                    <a href=" " title="mi.com">mi.com</a>
+                    京ICP证110507号
+                    <a href="#">京ICP备10046444号</a>
+                    <a href="#">京公网安备11010802020134号</a>
+                    <a href="#">京网文[2017]1530-131号</a>
+                    <a href="#">营业执照</a>
+                    <br>
+                    违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                </p>
             </div>
-            <div class="slogan ir"></div>
+            <div class="info-links">
+                <a href="#"><img src="//i1.mifile.cn/f/i/17/site/truste.png" alt="TRUSTe Privacy Certification"></a>
+                <a href="#"><img src="//s01.mifile.cn/i/v-logo-2.png" alt="诚信网站"></a>
+                <a href="#"><img src="//s01.mifile.cn/i/v-logo-1.png" alt="可信网站"></a>
+                <a href="#"><img src="//s01.mifile.cn/i/v-logo-3.png" alt="网上交易保障中心"></a>
+                <a href="#"><img src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="诚信经营 放心消费"></a>
+            </div>
         </div>
-        <div class="bar-s">
-            <ul>
-                <li>
-                    <a href=""><i class="iconfont icon-jingjirenjinglikehuxianxingcopy"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="iconfont icon-kefu"></i></a>
-                </li>
-                <li>
-                    <a href=""><i class="iconfont icon-gouwuchekong"></i></a>
-                </li>
-            </ul>
-            <a href="#top" class="a"><i class="iconfont icon-huidingbu"></i></a>
-        </div>
+        <div class="slogan ir"></div>
+    </div>
+    <!-- <div class="bar-s">
+        <ul>
+            <li>
+                <a href=""><i class="iconfont icon-jingjirenjinglikehuxianxingcopy"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont icon-kefu"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="iconfont icon-gouwuchekong"></i></a>
+            </li>
+        </ul> -->
+        <!-- <a href="#top" class="a"><i class="iconfont icon-huidingbu"></i></a> -->
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/shop_car.js"></script>
 </body>
+
 </html>

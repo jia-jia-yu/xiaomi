@@ -74,7 +74,8 @@ a {
 .box_shop .shop .shop_header .kong {
   width: 230px;
 }
-.box_shop .shop .shop_header .kong i {
+.box_shop .shop .shop_header .kong input {
+  list-style: none;
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -89,9 +90,6 @@ a {
   position: relative;
   top: -1px;
   margin-right: 15px;
-}
-.box_shop .shop .shop_header .kong i:hover {
-  color: #ccc;
 }
 .box_shop .shop .shop_header div {
   float: left;
@@ -115,7 +113,7 @@ a {
 .box_shop .shop .shop_content .shop_li .kong_2 {
   width: 110px;
 }
-.box_shop .shop .shop_content .shop_li .kong_2 i {
+.box_shop .shop .shop_content .shop_li .kong_2 input {
   display: inline-block;
   width: 18px;
   height: 18px;
@@ -131,9 +129,6 @@ a {
   top: -1px;
   margin-right: 15px;
 }
-.box_shop .shop .shop_content .shop_li .kong_2 i:hover {
-  color: #ccc;
-}
 .box_shop .shop .shop_content .shop_li .shop_img {
   width: 120px;
 }
@@ -142,6 +137,36 @@ a {
 }
 .box_shop .shop .shop_content .shop_li .shop_price {
   font-size: 16px;
+}
+.box_shop .shop .shop_content .shop_li .shop_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_shop .shop .shop_content .shop_li .shop_num .num_inp {
+  height: 25px;
+  display: flex;
+}
+.box_shop .shop .shop_content .shop_li .shop_num .num_inp div {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #ccc;
+  background: #fff;
+  user-select: none;
+}
+.box_shop .shop .shop_content .shop_li .shop_num .num_inp div:hover {
+  background: #ccc;
+}
+.box_shop .shop .shop_content .shop_li .shop_num .num_inp input {
+  width: 50px;
+  height: 25px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+.box_shop .shop .shop_content .shop_li .shop_num .num_inp input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 .box_shop .shop .shop_content .shop_li .shop_total {
   color: #ff6700;

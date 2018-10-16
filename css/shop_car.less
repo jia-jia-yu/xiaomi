@@ -50,36 +50,33 @@ a {
         margin-bottom: 22px;
         .shop_name {
             width: 380px;
-            text-align: left; 
-            // font-size: 18px;
+            text-align: left; // font-size: 18px;
         }
         .shop_price {
             width: 75px;
             padding-right: 84px;
-            text-align: right; 
-            // font-size: 16px;
+            text-align: right; // font-size: 16px;
         }
         .shop_num {
             width: 150px;
-            text-align: center;
+            text-align: center; // background: pink;
         }
         .shop_total {
             width: 201px;
-            text-align: center; 
-            // font-size: 16px;
+            text-align: center; // font-size: 16px;
         }
         .shop_action {
             width: 80px;
             text-align: center;
         }
         .shop_header {
-            height: 70px; 
-            // background: yellow;
+            height: 70px; // background: yellow;
             border-bottom: 1px solid #e0e0e0;
             padding-right: 26px;
             .kong {
                 width: 230px;
-                i{
+                input {
+                    list-style: none;
                     display: inline-block;
                     width: 18px;
                     height: 18px;
@@ -94,9 +91,7 @@ a {
                     position: relative;
                     top: -1px;
                     margin-right: 15px;
-                    &:hover{
-                        color: #ccc;
-                    }
+                    
                 }
             }
             div {
@@ -119,7 +114,7 @@ a {
                 }
                 .kong_2 {
                     width: 110px;
-                    i{
+                    input {
                         display: inline-block;
                         width: 18px;
                         height: 18px;
@@ -134,9 +129,7 @@ a {
                         position: relative;
                         top: -1px;
                         margin-right: 15px;
-                        &:hover{
-                            color: #ccc;
-                        }
+                        
                     }
                 }
                 .shop_img {
@@ -147,6 +140,38 @@ a {
                 }
                 .shop_price {
                     font-size: 16px;
+                }
+                .shop_num {
+                    // background: pink;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .num_inp {
+                        height: 25px;
+                        display: flex;
+                        div {
+                            width: 25px;
+                            height: 25px;
+                            line-height: 25px;
+                            border: 1px solid #ccc;
+                            background: #fff;
+                            user-select: none;
+                            &:hover{
+                                background: #ccc;
+                            }
+                        }
+                        input {
+                            // float: left;
+                            width: 50px;
+                            height: 25px;
+                            border-top: 1px solid #ccc;
+                            border-bottom: 1px solid #ccc;
+                            text-align: center;
+                        }
+                        input::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                        }
+                    }
                 }
                 .shop_total {
                     color: #ff6700;
