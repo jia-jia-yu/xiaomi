@@ -68,7 +68,6 @@ a {
 }
 .box_shop .shop .shop_header {
   height: 70px;
-  border-bottom: 1px solid #e0e0e0;
   padding-right: 26px;
 }
 .box_shop .shop .shop_header .kong {
@@ -100,6 +99,7 @@ a {
 .box_shop .shop .shop_content {
   padding-right: 26px;
   padding: 15px 15px 15px 0;
+  border-top: 1px solid #e0e0e0;
 }
 .box_shop .shop .shop_content .shop_li {
   height: 86px;
@@ -131,6 +131,10 @@ a {
 }
 .box_shop .shop .shop_content .shop_li .shop_img {
   width: 120px;
+}
+.box_shop .shop .shop_content .shop_li .shop_img img {
+  width: 80px;
+  height: 80px;
 }
 .box_shop .shop .shop_content .shop_li .shop_name {
   font-size: 18px;
